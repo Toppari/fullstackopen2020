@@ -11,7 +11,6 @@ const App = ({ anecdotes }) => {
   const handleNextClick = () => {
     // Random number between 0 - 5
     const getRandomNumber = Math.floor(Math.random() * 6);
-    console.log(getRandomNumber);
     setSelected(getRandomNumber);
   };
 
